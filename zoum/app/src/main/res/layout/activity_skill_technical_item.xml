@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--First Grid -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blueLight"
+        android:layout_marginLeft="@dimen/tecSkillInsideMarginLeft"
+        android:layout_marginRight="@dimen/tecSkillInsideMarginRight"
+        android:layout_marginBottom="@dimen/tecSkillInsideMarginBottom"
+        android:layout_marginTop="@dimen/tecSkillInsideMarginTop"
+        android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/technicalSkillItemHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/tecSkillInsideTitleMargin"
+                    android:gravity="center"
+                    android:background="@color/blue"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:shadowColor="@color/black"
+                    android:shadowDx="3"
+                    android:shadowDy="3"
+                    android:shadowRadius="5"
+                    android:textSize="@dimen/tecSkillInsideTitleTxtSize"
+                    android:fontFamily="fantasy" />
+
+                <GridView
+
+                    android:id="@+id/technicalSkillItemGridView"
+                    android:scrollbarThumbVertical="@drawable/custom_scroll_style"
+                    android:fadeScrollbars="false"
+                    android:scrollbarSize="30dp"
+                    android:scrollbarAlwaysDrawVerticalTrack="true"
+                    android:scrollbars="vertical"
+                    android:scrollbarStyle="insideInset"
+                    android:scrollbarFadeDuration="0"
+                    android:nestedScrollingEnabled="true"
+                    android:drawSelectorOnTop="false"
+                    android:layout_marginRight="@dimen/tecSkillGridViewRightMargin"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="@dimen/tecSkillGridViewLeftMargin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:horizontalSpacing="@dimen/tecSkillGridViewHorSpace"
+                    android:verticalSpacing="@dimen/tecSkillGridViewVerSpace"
+                    android:footerDividersEnabled="false"
+                    android:padding="@dimen/tecSkillGridViewPadding"
+                    android:numColumns="auto_fit" />
+
+
+</LinearLayout>

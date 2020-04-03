@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zoumzoum.zoum">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/adam"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/adam"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name=".AwardListViewItem" />
+        <activity android:name=".SkillTechnicalItem" />
+        <activity android:name=".PublicationItem" />
+        <activity android:name=".AwardOnlyItem" />
+        <activity android:name=".Work" />
+        <activity android:name=".SkillTec" />
+        <activity android:name=".SkillSoft" />
+        <activity android:name=".Skills" />
+        <activity android:name=".SkillProgramItem" />
+        <activity android:name=".SkillProg" />
+        <activity android:name=".SkillLang" />
+        <activity android:name=".Signup" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Publication" />
+        <activity android:name=".PersonalListview" />
+        <activity android:name=".Personal" />
+
+        <activity android:name=".Listview" />
+        <activity android:name=".InterestGridview" />
+        <activity android:name=".Interest" />
+        <activity android:name=".Gridview" />
+        <activity android:name=".Education" />
+        <activity android:name=".Career" />
+        <activity android:name=".AwardOnly" />
+        <activity android:name=".Award" />
+        <activity android:name=".MainActivity"/>
+    </application>
+
+</manifest>

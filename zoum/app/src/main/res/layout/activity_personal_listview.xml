@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/oval"
+        android:orientation="horizontal">
+
+
+                    <TextView
+                        android:clickable="true"
+                        android:id="@+id/personalRowTxt1"
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:textColor="@color/white"
+                        android:shadowColor="@color/black"
+                        android:shadowDx="3"
+                        android:shadowDy="3"
+                        android:shadowRadius="5"
+                        android:layout_alignParentLeft="true"
+                        android:fontFamily="fantasy" />
+
+
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/white" />
+
+
+
+                        <Button
+                            android:clickable="false"
+                            android:focusable="false"
+                            android:id="@+id/personalRowTxt2"
+                            android:layout_width="145dp"
+                            android:layout_height="55dp"
+                            android:paddingLeft="10dp"
+                            android:textStyle="normal|italic"
+                            android:textSize="13dp"
+                            android:textColor="@color/white"
+                            android:layout_alignParentLeft="true"
+                            android:backgroundTint="@color/blue" />
+
+
+                    <ImageView
+                        android:id="@+id/personalRowImg"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:src="@drawable/ic_launcher_background"
+                        android:layout_alignParentRight="true" />
+
+</LinearLayout>
+
+
+
+

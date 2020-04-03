@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--All page is displayed as single view on screen -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backall">
+
+    <!--Header -->
+                <LinearLayout
+                    android:layout_gravity="center|top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <!-- Log out -->
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_height="40dp"
+                            android:orientation="vertical"
+                            android:layout_gravity="right"
+                            android:background="@drawable/back_log_out">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <Button
+                                    android:id="@+id/outPersonal"
+                                    android:layout_alignParentBottom="true"
+                                    android:gravity="bottom"
+                                    android:layout_width="60dp"
+                                    android:layout_height="40dp"
+                                    android:textSize="15dp"
+                                    android:text="@string/log_out"
+                                    android:textColor="@color/white"
+                                    android:backgroundTint="@color/red"
+                                    android:textStyle="bold"
+                                    android:shadowColor="@color/black"
+                                    android:shadowDx="3"
+                                    android:shadowDy="3"
+                                    android:shadowRadius="5">
+
+                                </Button>
+
+
+
+                            </RelativeLayout>
+
+
+                        </LinearLayout>
+                    <!-- End of Log out -->
+
+                    <!--Title -->
+
+                        <TextView
+                            android:id="@+id/personalTitleID"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginTop="2dp"
+                            android:text="@string/personalTitleTxt"
+                            android:gravity="center"
+                            android:background="@drawable/personal_title_bac"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:shadowColor="@color/black"
+                            android:shadowDx="3"
+                            android:shadowDy="3"
+                            android:shadowRadius="5"
+                            android:textSize="30dp"
+                            android:fontFamily="fantasy"/>
+                    <!-- End of Title -->
+
+                </LinearLayout>
+    <!-- End of Header -->
+
+    <!-- Content -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginBottom="75dp"
+                android:layout_marginTop="125dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ListView
+                    android:scrollbarThumbVertical="@drawable/custom_scroll_style"
+                    android:fadeScrollbars="false"
+                    android:scrollbarSize="30dp"
+                    android:scrollbarAlwaysDrawVerticalTrack="true"
+                    android:scrollbars="vertical"
+                    android:scrollbarStyle="insideInset"
+                    android:scrollbarFadeDuration="0"
+                    android:layout_margin="10dp"
+                    android:focusable="true"
+                    android:id="@+id/personalListView"
+                    android:background="@drawable/backlist"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:divider="@color/white"
+                    android:dividerHeight="5dp"
+                    android:padding="5dp" />
+
+            </LinearLayout>
+
+    <!--End of Content -->
+
+    <!--Footer : Return Button -->
+
+            <Button
+                android:layout_gravity="center|bottom"
+                android:id="@+id/personalToMenu"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/returnButton"
+                android:textColor="@color/white"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="5"
+                android:textSize="@dimen/buttonTxtSize"
+                android:padding="@dimen/buttonPaddingSize"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_bac"
+                android:fontFamily="fantasy"/>
+
+    <!--End of Footer : Return Button -->
+</FrameLayout>
+
+

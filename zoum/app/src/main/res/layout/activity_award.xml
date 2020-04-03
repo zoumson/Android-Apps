@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--All page is displayed as single view on screen -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backall">
+
+    <!--Header -->
+            <LinearLayout
+                android:layout_gravity="center|top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <!-- Log out -->
+                    <LinearLayout
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:orientation="vertical"
+                        android:layout_gravity="right"
+                        android:background="@drawable/back_log_out"
+                        >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <Button
+                                android:id="@+id/outAward"
+                                android:layout_alignParentBottom="true"
+                                android:gravity="bottom"
+                                android:layout_width="60dp"
+                                android:layout_height="40dp"
+                                android:textSize="15dp"
+                                android:text="@string/log_out"
+                                android:textStyle="bold"
+                                android:textColor="@color/white"
+                                android:shadowColor="@color/black"
+                                android:backgroundTint="@color/red"
+                                android:shadowDx="3"
+                                android:shadowDy="3"
+                                android:shadowRadius="5"
+                                >
+
+                            </Button>
+
+
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+            <!-- End of Log out -->
+
+                <!--Title -->
+                    <TextView
+                        android:id="@+id/interestTitleID"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/awardPubTitleMargin"
+                        android:layout_marginRight="@dimen/awardPubTitleMargin"
+                        android:layout_marginBottom="@dimen/awardPubTitleMargin"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/awards_publication"
+                        android:gravity="center"
+                        android:background="@drawable/personal_title_bac"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:shadowColor="@color/green"
+                        android:shadowDx="3"
+                        android:shadowDy="3"
+                        android:shadowRadius="5"
+                        android:textSize="@dimen/awardPubTitleTxtSize" />
+
+
+                <!-- End of Title -->
+
+            </LinearLayout>
+
+    <!-- End of Header -->
+
+    <!-- Content -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginBottom="75dp"
+                android:layout_marginTop="125dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/backlist"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+<!--
+              award
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingTop="@dimen/awardInAwardPubPaddingTop"
+                    android:paddingRight="@dimen/awardInAwardPubPaddingRight"
+                    android:paddingLeft="@dimen/awardInAwardPubPaddingLeft"
+                    android:paddingBottom="@dimen/awardInAwardPubPaddingBottom"
+                    android:id="@+id/awardID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:text="Award"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:shadowColor="@color/blue"
+                    android:shadowDx="3"
+                    android:shadowDy="3"
+                    android:shadowRadius="5"
+                    android:clickable="false"
+                    android:background="@drawable/oval"
+                    />
+
+
+
+            publication
+
+
+                <TextView
+                    android:layout_marginTop="@dimen/pubInAwardPubMarginTop"
+                    android:layout_marginBottom="@dimen/pubInAwardPubMarginBottom"
+                    android:layout_marginLeft="@dimen/pubInAwardPubMarginLeft"
+                    android:layout_marginRight="@dimen/pubInAwardPubMarginRight"
+                    android:paddingTop="@dimen/pubInAwardPubPaddingTop"
+                    android:paddingRight="@dimen/pubInAwardPubPaddingRight"
+                    android:paddingLeft="@dimen/pubInAwardPubPaddingLeft"
+                    android:paddingBottom="@dimen/pubInAwardPubPaddingBottom"
+                    android:id="@+id/publicationID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:text="@string/publication"
+                    android:textSize="30dp"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:shadowColor="@color/blue"
+                    android:shadowDx="3"
+                    android:shadowDy="3"
+                    android:shadowRadius="5"
+                    android:clickable="false"
+                    android:background="@drawable/oval"
+                    />
+-->
+
+                <ListView
+                    android:id="@+id/awardListView"
+                    android:scrollbarThumbVertical="@drawable/custom_scroll_style"
+                    android:fadeScrollbars="false"
+                    android:scrollbarSize="30dp"
+                    android:scrollbarAlwaysDrawVerticalTrack="true"
+                    android:scrollbars="vertical"
+                    android:scrollbarStyle="insideInset"
+                    android:scrollbarFadeDuration="0"
+                    android:layout_margin="10dp"
+                    android:focusable="true"
+                    android:background="@drawable/backlist"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:divider="@color/white"
+                    android:dividerHeight="5dp"
+                    android:padding="10dp" />
+
+
+
+            </LinearLayout>
+
+            </LinearLayout>
+
+    <!--End of Content -->
+
+    <!--Footer : Return Button -->
+    <Button
+        android:layout_gravity="center|bottom"
+        android:id="@+id/awardPublicationToMenuID"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/returnButton"
+        android:textColor="@color/white"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="5"
+        android:textSize="@dimen/buttonTxtSize"
+        android:padding="@dimen/buttonPaddingSize"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_bac" />
+
+    <!--End of Footer : Return Button -->
+</FrameLayout>
+

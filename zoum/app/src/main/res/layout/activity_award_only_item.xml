@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/buttonMarginSize"
+        android:layout_marginRight="@dimen/buttonMarginSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/oval">
+
+        <TextView
+            android:id="@+id/awardOnlyItemNumber"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@color/red"
+            android:textSize="20dp"
+            android:shadowColor="@color/black"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="5"
+            android:fontFamily="fantasy"/>
+
+        <TextView
+            android:id="@+id/awardOnlyItemTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/buttonMarginSize"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:shadowColor="@color/white"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="5"
+            android:background="@drawable/backlist"
+            android:textSize="17dp"
+            android:fontFamily="fantasy"/>
+
+        <TextView
+            android:id="@+id/awardOnlyItemOrganizer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:shadowColor="@color/black"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="5"
+            android:textSize="@dimen/buttonTxtSize"
+            android:fontFamily="fantasy"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/awardOnlyItemDate"
+                android:background="@drawable/backlist"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textStyle="normal|italic"
+                android:shadowColor="@color/white"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="5"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="@dimen/buttonTxtSize"
+                android:fontFamily="fantasy"/>
+
+            <TextView
+                android:id="@+id/awardOnlyItemLocation"
+                android:background="@drawable/backlist"
+                android:layout_weight="1"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textColor="@color/black"
+                android:textStyle="normal|italic"
+                android:shadowColor="@color/white"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:textSize="@dimen/buttonTxtSize" />
+
+        </LinearLayout>
+
+</LinearLayout><!--end of 1th work -->

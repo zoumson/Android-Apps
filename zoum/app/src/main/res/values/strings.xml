@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MameCV Smart Maker</string>
+
+    <string name="emailHint">abc@gmail.com</string>
+    <string name="passwordHint">password</string>
+    <string name="signUpBtn">Sign Up</string>
+    <string name="logInBtn">Log In</string>
+
+
+    <string name="personalTitleTxt">Personal Information</string>
+    <string name="careerObjective">\nTo take a challenging role in the field\n
+                                     of Computer programming and implement\n
+                                     the expertise and experience gained in\n
+                                     this field to develop complex project\n
+                                     with efficiency and quality.</string>
+
+    <string name="returnButton">Back</string>
+    <string name="logOut">Log Out</string>
+
+
+    <string name="NCKUWork">NCKU Energy and Power System Laboratory</string>
+    <string name="NCKUWorkPosition">Research and Teacher Assistant</string>
+    <string name="NCKUWorkLocation">Tainan, Taiwan</string>
+    <string name="NCKUWorkDate">09/2017 – Present</string>
+
+    <string name="ARMATTANWork">ARMATTAN QUADS</string>
+    <string name="ARMATTANWorkPosition">Part time Robotic Engineer</string>
+    <string name="ARMATTANWorkLocation">Kaohsiung, Taiwan</string>
+    <string name="ARMATTANWorkDate">01/2018 – 06/2018</string>
+
+    <string name="SuperiorCoinWork">SuperiorCoin</string>
+    <string name="SuperiorCoinWorkPosition">Part time Social Media Manager</string>
+    <string name="SuperiorCoinWorkLocation">Taipei, Taiwan</string>
+    <string name="SuperiorCoinWorkDate">07/2018 – 09/2018</string>
+
+
+    <string name="patentNumber">108129199</string>
+    <string name="patentDate">16/08/2019</string>
+    <string name="patentStatus">Under review</string>
+    <string name="patentAuthors">Adama ZOUMA, NCKU EPS Lab</string>
+    <string name="patentTitle">Energy Management System for a Large EV Charging Station with
+        Renewable energy and Energy Storage System</string>
+    <string name="tecSkillTitleTxt">Technical Skills</string>
+
+    <string name="welcome">Welcome to ZOUMA QG</string>
+    <string name="publication">Publication</string>
+    <string name="awards_publication">Awards/Publication</string>
+    <string name="awards">Awards</string>
+    <string name="career_objective">Career Objective</string>
+    <string name="education">Education</string>
+    <string name="cv">CV</string>
+    <string name="patent">Patent</string>
+    <string name="log_in">Log In</string>
+    <string name="username">Username</string>
+    <string name="adam">adama</string>
+    <string name="zouma">ZOUMA</string>
+    <string name="spoken_language">Spoken Language</string>
+    <string name="programming_language">Programming Language</string>
+    <string name="soft_skills">Soft Skills</string>
+    <string name="skills">Skills</string>
+    <string name="work_experience">Work Experience</string>
+    <string name="log_out">Out</string>
+    <string name="password">Password</string>
+
+
+    <string name="nextButton">Next</string>
+
+
+    <string-array name="skillSoft">
+        <item>Empathy</item>
+        <item>Patience</item>
+        <item>Creativity</item>
+        <item>Teamwork</item>
+        <item>Tolerant</item>
+        <item>Resilience</item>
+        <item>Positivity</item>
+        <item>Networking</item>
+        <item>Helpfulness</item>
+        <item>Work ethic</item>
+        <item>Problem solving</item>
+        <item>Approachability</item>
+        <item>Accountability</item>
+        <item>Communication</item>
+        <item>Time management</item>
+        <item>Open-mindedness</item>
+    </string-array>
+
+    <string-array name="skillTechnicalTitle">
+        <item name="algorithmDataTitleString">Algorithm/Data structures</item>
+        <item name="dataVisualTitleString">Data Science/Visualization</item>
+        <item name="appWebTitleString">Apps/Web Development and Database/API</item>
+        <item name="computerVisionTitleString">Computer Vision</item>
+    </string-array>
+
+
+    <string-array name="algorithmDataSubTitleString">
+        <item>Optimization</item>
+        <item>Sorting</item>
+        <item>DFS</item>
+        <item>BFS</item>
+        <item>Tree</item>
+        <item>Linked List</item>
+        <item>Stack</item>
+        <item>Queue</item>
+        <item>Dynamic Prog</item>
+        <item>Recursion</item>
+    </string-array>
+
+
+    <string-array name="dataVisualSubTitleString">
+        <item>R studio</item>
+        <item>Pandas</item>
+        <item>Statistics</item>
+        <item>Probability</item>
+        <item>Linear Algebra</item>
+        <item>Supervised Learning</item>
+        <item>Features Selection</item>
+    </string-array>
+
+    <string-array name="appWebSubTitleString">
+        <item>Android Studio</item>
+        <item>HTML/CSS</item>
+        <item>MySQL Workbench</item>
+        <item>Postman</item>
+        <item>MongoDB</item>
+    </string-array>
+
+
+    <string-array name="computerVisionSubTitleString">
+        <item>openCV</item>
+        <item>Object Detection</item>
+        <item>YOLO</item>
+        <item>Deep Learning</item>
+    </string-array>
+
+
+    <array name="skillTechnicalSubTitle">
+        <item>@array/algorithmDataSubTitleString</item>
+        <item>@array/dataVisualSubTitleString</item>
+        <item>@array/appWebSubTitleString</item>
+        <item>@array/computerVisionSubTitleString</item>
+    </array>
+
+    <string-array name="personalTitle">
+        <item name="name">Name</item>
+        <item name="nationality">Nationality</item>
+        <item name="residency">Residency</item>
+        <item name="address">Address</item>
+        <item name="phoneNo">Phone No.</item>
+        <item name="email">Email</item>
+        <item name="linkedIn">LinkedIn</item>
+        <item name="github">Github</item>
+        <item name="StackOverflow">Stack Overflow</item>
+    </string-array>
+    <string-array name="personalSubTitle">
+        <item name="nameGiven">Adama ZOUMA</item>
+        <item name="nationalityGiven">Burkinabé</item>
+        <item name="residencyGiven">Taiwan</item>
+        <item name="addressGiven">No. 1, Dasyue Rd, East District, Tainan City, 701</item>
+        <item name="phoneNoGiven">+886963502294</item>
+        <item name="emailGiven">stargue49@gmail.com</item>
+        <item name="linkedInGiven">See Profile</item>
+        <item name="github">See Profile</item>
+        <item name="StackOverflowGiven">See Profile</item>
+    </string-array>
+
+
+    <string name="myCountryAddress">https://www.google.com/maps/place/Burkina+Faso
+        /@12.2435188,-3.7987704,7z/data=!3m1!4b1!4m5!3m4!1s0xe2dca26d5a6709b:
+        0x27930aed46836dab!8m2!3d12.238333!4d-1.561593
+    </string>
+
+    <string name="myResidentCountryAddress">https://www.google.com/maps/place/Taiwan
+        /@23.4747325,117.8402859,7z/data=!3m1!4b1!4m5!3m4!1s0x346ef3065c07572f:
+        0xe711f004bf9c5469!8m2!3d23.69781!4d120.9605153
+    </string>
+
+    <string name="myActualAddress">https://www.google.com/maps/place/National+Cheng+Kung+University
+    /@22.9988465,120.2173261,17z/data=!3m1!4b1!4m5!3m4!1s0x346e76ed290820d3:
+    0xe0ee028be207a19e!8m2!3d22.9988416!4d120.2195148
+    </string>
+
+    <string name="myGithub">https://github.com/zoumson?tab=repositories</string>
+
+    <string name="myStackOverflow">https://stackoverflow.com/users/11175375/adam</string>
+
+    <string name="myLinkedIn">https://www.linkedin.com/in/adama-zouma-553bba13a/</string>
+    <string name="questionnaireTitle">Customized CV</string>
+    <string name="lastName">Last Name</string>
+    <string name="residency">Residency</string>
+    <string name="firstName">First Name</string>
+    <string name="hintFirstName">Adama</string>
+    <string name="hintLastName">ZOUMA</string>
+    <string name="actualAddress">Address</string>
+    <string name="hintActualAddress">445 Mount Eden Road, Mount Eden, Auckland</string>
+    <string name="hintEmail">stargue49@gmail.com</string>
+    <string name="textEmail">Email</string>
+    <string name="hintPhoneNumber">+886963502294</string>
+    <string name="phoneNumber">Phone No.</string>
+
+
+    <string-array name="awardItem">
+        <item name="award">Award</item>
+        <item name="publication">Publication</item>
+    </string-array>
+
+
+    <string-array name="awardOnlyTitle">
+        <item name="awardMofaTitle">Outstanding Academic and Competition Achievements</item>
+        <item name="awardSinopacTitle">NCKU-SinoPac Outstanding Talents Scholarship</item>
+        <item name="awardNckuTitle">Title of Outstanding Student</item>
+        <item name="awardOlympiadTitle">National Olympics of Secondary Education in Mathematics</item>
+    </string-array>
+
+    <string-array name="awardOnlyOrganizer">
+        <item name="awardMofaOrganizer">Taiwan Scholarship and Huayu Enrichment Scholarship Program</item>
+        <item name="awardSinopacOrganizer">Atelier Future, National Cheng Kung University</item>
+        <item name="awardNckuOrganizer">National Cheng Kung University</item>
+        <item name="awardOlympiadOrganizer">University of Ouagadougo</item>
+    </string-array>
+
+    <string-array name="awardOnlyLocation">
+        <item name="awardMofaLocation">Taipei, Taiwan</item>
+        <item name="awardSinopacLocation">Tainan, Taiwan</item>
+        <item name="awardNckuLocation">Tainan, Taiwan</item>
+        <item name="awardOlympiadLocation">Burkina Faso</item>
+    </string-array>
+    <string-array name="awardOnlyDate">
+        <item name="awardMofaDate">05/2018</item>
+        <item name="awardSinopacDate">12/2017</item>
+        <item name="awardNckuDate">01/2016</item>
+        <item name="awardOlympiadDate">01/2012</item>
+    </string-array>
+
+
+    <string-array name="awardOnlyNumber">
+        <item name="awardMofaNumber">1</item>
+        <item name="awardSinopacNumber">2</item>
+        <item name="awardNckuNumber">3</item>
+        <item name="awardOlympiadNumber">4</item>
+    </string-array>
+
+
+    <string-array name="educationTitle">
+        <item name="educationMasterTitle">Master Degree of Electrical Engineering</item>
+        <item name="educationBachelorTitle">Bachelor Degree of Electrical Engineering</item>
+    </string-array>
+
+    <string-array name="educationOrganizer">
+        <item name="educationMasterOrganizer">National Cheng Kung University</item>
+        <item name="educationBachelorOrganizer">National Cheng Kung University</item>
+    </string-array>
+
+    <string-array name="educationLocation">
+        <item name="educationMasterLocation">Tainan, Taiwan</item>
+        <item name="educationBachelorLocation">Tainan, Taiwan</item>
+    </string-array>
+
+    <string-array name="educationDate">
+        <item name="educationMasterDate">07/2018 – Present</item>
+        <item name="educationBachelorDate">09/2014 – 07/2018</item>
+    </string-array>
+
+
+    <string-array name="educationNumber">
+        <item name="educationMasterNumber">1</item>
+        <item name="educationBachelorNumber">2</item>
+    </string-array>
+
+    <string-array name="workTitle">
+        <item name="workNckuTitle">Research and Teacher Assistant</item>
+        <item name="workArmattanTitle">Part time Robotic Engineer</item>
+        <item name="workSuperiorCoinTitle">Part time Social Media Manager</item>
+    </string-array>
+
+    <string-array name="workOrganizer">
+        <item name="workNckuOrganizer">NCKU Energy and Power System Laboratory</item>
+        <item name="workArmattanOrganizer">ARMATTAN QUADS</item>
+        <item name="workSuperiorCoinOrganizer">SuperiorCoin</item>
+    </string-array>
+
+    <string-array name="workLocation">
+        <item name="workNckuLocation">Tainan, Taiwan</item>
+        <item name="workArmattanLocation">Kaohsiung, Taiwan</item>
+        <item name="workSuperiorCoinLocation">Taipei, Taiwan</item>
+    </string-array>
+
+    <string-array name="workDate">
+        <item name="workNckuDate">09/2017 – Present</item>
+        <item name="workArmattanDate">01/2018 – 06/2018</item>
+        <item name="workSuperiorCoinDate">07/2018 – 09/2018</item>
+    </string-array>
+
+
+    <string-array name="workNumber">
+        <item name="workNckuNumber">1</item>
+        <item name="workArmattanNumber">2</item>
+        <item name="workSuperiorCoinNumber">3</item>
+    </string-array>
+
+    <string-array name="interestItem">
+        <item name="interestWriting">Writing</item>
+        <item name="interestReading">Reading</item>
+        <item name="interestSports">Sports</item>
+        <item name="interestArt">Art</item>
+        <item name="interestCooking">Cooking</item>
+        <item name="interestMusic">Music</item>
+        <item name="interestSightseeing">Sightseeing</item>
+        <item name="interestTravelling">Travelling</item>
+
+    </string-array>
+
+    <string-array name="menuItem">
+        <item name="menuPersonal">Personal Information</item>
+        <item name="menuCareer">Career Objective</item>
+        <item name="menuEducation">Education</item>
+        <item name="menuSkills">Skills</item>
+        <item name="menuWork">Work Experience</item>
+        <item name="menuAward">Awards/Publication</item>
+        <item name="menuInterest">Interest</item>
+
+    </string-array>
+
+    <string-array name="publicationTitle">
+        <item name="publicationTitlePatent">Energy Management System for a Large EV Charging Station with
+        Renewable energy and Energy Storage System
+        </item>
+    </string-array>
+  <string-array name="publicationLocation">
+        <item name="publicationTitlePatent">Tainan, Taiwan</item>
+    </string-array>
+  <string-array name="publicationDate">
+        <item name="publicationTitlePatent">16/08/2019</item>
+    </string-array>
+  <string-array name="publicationType">
+        <item name="publicationTitlePatent">Patent</item>
+    </string-array>
+  <string-array name="publicationNumber">
+        <item name="publicationTitlePatent">108129199</item>
+    </string-array>
+  <string-array name="publicationStatus">
+        <item name="publicationTitlePatent">Under review</item>
+    </string-array>
+  <string-array name="publicationAuthor">
+        <item name="publicationTitlePatent">Adama ZOUMA, NCKU EPS Lab</item>
+    </string-array>
+
+    <integer-array name="skillSpokenLanguageProgressBar">
+        <item name="skillSpokenLanguageProgressBarFrench">100</item>
+        <item name="skillSpokenLanguageProgressBarAmerican" >100</item>
+        <item name="skillSpokenLanguageProgressBarMandarin">50</item>
+        <item name="skillSpokenLanguageProgressBarGerman">20</item>
+
+    </integer-array>
+
+
+    <string-array name="skillSpokenLanguageItem">
+        <item name="skillSpokenLanguageItemFrench">French</item>
+        <item name="skillSpokenLanguageItemAmerican" >English</item>
+        <item name="skillSpokenLanguageItemMandarin">Mandarin</item>
+        <item name="skillSpokenLanguageItemGerman">German</item>
+
+    </string-array>
+
+
+    <integer-array name="skillProgrammingLanguageProgressBar">
+        <item name="skillProgrammingLanguageProgressBarC">100</item>
+        <item name="skillProgrammingLanguageProgressBarMATLAB" >100</item>
+        <item name="skillProgrammingLanguageProgressBarJava">95</item>
+        <item name="skillProgrammingLanguageProgressBarPython">90</item>
+        <item name="skillProgrammingLanguageProgressBarR" >70</item>
+        <item name="skillProgrammingLanguageProgressBarSQL">60</item>
+        <item name="skillProgrammingLanguageProgressBarHTML">50</item>
+        <item name="skillProgrammingLanguageProgressBarCSS">50</item>
+        <item name="skillProgrammingLanguageProgressBarJS">50</item>
+        <item name="skillProgrammingLanguageProgressBarXML">50</item>
+        <item name="skillProgrammingLanguageProgressBarJSON">40</item>
+        <item name="skillProgrammingLanguageProgressBarPhp">40</item>
+        <item name="skillProgrammingLanguageProgressBarJaxRs">40</item>
+
+
+    </integer-array>
+
+
+    <string-array name="skillProgrammingLanguageItem">
+        <item name="skillProgrammingLanguageItemC">C/C++</item>
+        <item name="skillProgrammingLanguageItemMATLAB" >MATLAB</item>
+        <item name="skillProgrammingLanguageItemJava">Java</item>
+        <item name="skillProgrammingLanguageItemPython">Python</item>
+        <item name="skillProgrammingLanguageItemR" >R</item>
+        <item name="skillProgrammingLanguageItemSQL">SQL</item>
+        <item name="skillProgrammingLanguageItemHTML">HTML</item>
+        <item name="skillProgrammingLanguageItemHTML">CSS</item>
+        <item name="skillProgrammingLanguageItemJS">JavaScript</item>
+        <item name="skillProgrammingLanguageItemXML">XML</item>
+        <item name="skillProgrammingLanguageItemJSON">JSON</item>
+        <item name="skillProgrammingLanguageItemPHP">PHP</item>
+        <item name="skillProgrammingLanguageItemJaxRs">JAX RS</item>
+
+    </string-array>
+
+    <string-array name="skillItem">
+        <item name="skillItemTechnicalSkills">Technical Skills</item>
+        <item name="skillItemProgrammingLanguage">Programming Language</item>
+        <item name="skillItemSpokenLanguage">Spoken Language</item>
+        <item name="skillItemSoftSkills">Soft Skills</item>
+    </string-array>
+
+
+
+
+
+
+
+
+</resources>

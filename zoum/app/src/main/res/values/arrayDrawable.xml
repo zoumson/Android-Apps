@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="personalLogo">
+        <item>@drawable/adam</item>
+        <item>@drawable/burkina</item>
+        <item>@drawable/taiwan</item>
+        <item>@drawable/address</item>
+        <item>@drawable/telephone</item>
+        <item>@drawable/email</item>
+        <item>@drawable/linkedin</item>
+        <item>@drawable/github</item>
+        <item>@drawable/stack</item>
+    </integer-array>
+
+    <integer-array name="menuLogo">
+        <item>@drawable/personal</item>
+        <item>@drawable/career</item>
+        <item>@drawable/education</item>
+        <item>@drawable/skill</item>
+        <item>@drawable/work</item>
+        <item>@drawable/award</item>
+        <item>@drawable/interest</item>
+    </integer-array>
+
+    <integer-array name="skillSpokenLanguageLogo">
+        <item>@drawable/french</item>
+        <item>@drawable/american</item>
+        <item>@drawable/mandarin</item>
+        <item>@drawable/german</item>
+
+    </integer-array>
+
+    <integer-array name="skillProgrammingLanguageLogo">
+        <item>@drawable/c</item>
+        <item>@drawable/matlab</item>
+        <item>@drawable/jav</item>
+        <item>@drawable/python</item>
+        <item>@drawable/r</item>
+        <item>@drawable/sql</item>
+        <item>@drawable/html</item>
+        <item>@drawable/css</item>
+        <item>@drawable/javascript</item>
+        <item>@drawable/xml</item>
+        <item>@drawable/json</item>
+        <item>@drawable/php</item>
+        <item>@drawable/jaxrs</item>
+
+
+    </integer-array>
+
+    <integer-array name="skillLogo">
+        <item>@drawable/skilltec</item>
+        <item>@drawable/langage_prog</item>
+        <item>@drawable/langage_sp</item>
+        <item>@drawable/skillsoft</item>
+
+    </integer-array>
+
+
+
+
+</resources>

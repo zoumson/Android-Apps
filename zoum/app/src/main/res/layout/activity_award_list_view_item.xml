@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".AwardListViewItem">
+
+
+    <TextView
+        android:id="@+id/awardItem"
+        android:layout_marginTop="@dimen/pubInAwardPubMarginTop"
+        android:layout_marginBottom="@dimen/pubInAwardPubMarginBottom"
+        android:layout_marginLeft="@dimen/pubInAwardPubMarginLeft"
+        android:layout_marginRight="@dimen/pubInAwardPubMarginRight"
+        android:paddingTop="@dimen/pubInAwardPubPaddingTop"
+        android:paddingRight="@dimen/pubInAwardPubPaddingRight"
+        android:paddingLeft="@dimen/pubInAwardPubPaddingLeft"
+        android:paddingBottom="@dimen/pubInAwardPubPaddingBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:shadowColor="@color/blue"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="5"
+        android:clickable="false"
+        android:background="@drawable/oval"
+        />
+
+
+</LinearLayout>
